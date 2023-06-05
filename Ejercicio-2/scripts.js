@@ -16,8 +16,8 @@ const pintar = document.querySelector("#resultado")
 
 if (figure.toLowerCase() === "triangulo") {
     /* console.log("Has seleccionado: Triangulo"); */
-    let base=prompt('Introduce la base del triángulo')
-    let height=prompt('Introduce la altura del triángulo')
+    let base=prompt('Introduce la base del triángulo');
+    let height=prompt('Introduce la altura del triángulo');
     let resultado = base*height/2;
     pintar.innerHTML = `El resultado de seleccion para el ${figure} es: ` + resultado
 
