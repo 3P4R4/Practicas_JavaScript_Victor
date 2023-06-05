@@ -34,7 +34,7 @@ if (figure.toLowerCase() === "triangulo") {
     let resultado = Math.PI * Math.pow(radius,2);
     pintar.innerHTML = `El resultado de seleccion para el ${figure} es: ` + resultado
 
-}else if(figure.length === 0){ // Aqui estoy comprobando de que el prompt no erste vacio y recarga de nuevo la pagina
+}else if(figure.length === 0){ // Aqui estoy comprobando de que el prompt no este vacio y recarga de nuevo la pagina
     location.reload()
 }
 
